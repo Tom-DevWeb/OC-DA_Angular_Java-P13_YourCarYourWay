@@ -1,3 +1,7 @@
+![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white
+
 # Projet POC YourCarYourWay
 
 Ce projet est une preuve de concept pour l'utilisation du chat en ligne.
@@ -21,7 +25,16 @@ venv\Scripts\Activate.ps1   # PowerShell
 pip install requirements.txt
 ```
 
+> [!IMPORTANT]
+> Prérequis :
+> Avoir Docker installé sur son environnement
+
 ## Lancement
+
+```bash
+# Lancement de Docker
+docker compose up
+```
 
 ```bash
 # Lancer l'application
