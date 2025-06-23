@@ -39,5 +39,5 @@ docker compose up
 ```bash
 # Lancer l'application
 source venv/bin/activate
-streamlit run YourCarYourWay.py
+streamlit run main.py
 ```

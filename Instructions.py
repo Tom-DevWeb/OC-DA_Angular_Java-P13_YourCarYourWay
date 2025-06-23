@@ -1,8 +1,5 @@
 import streamlit as st
 
-# --- Configuration de la page ---
-st.set_page_config(page_title="YourCarYourWay", page_icon="🚗", layout="wide")
-
 # --- En-tête ---
 st.title("🚗 YourCarYourWay")
 st.subheader("Bienvenue sur la plateforme de messagerie")
@@ -22,6 +19,8 @@ profil = st.selectbox(
     "Choisissez un profil pour continuer :",
     ["Client", "Service client"]
 )
+
+st.session_state["profil"] = profil
 
 # Étape 2 : Accéder à la messagerie
 st.markdown("### 2️⃣ Accéder aux messages")

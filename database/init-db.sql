@@ -18,6 +18,7 @@ CREATE TABLE "Threads" (
                            "userId" INTEGER NOT NULL,
                            "createdAt" TIMESTAMP NOT NULL,
                            "updatedAt" TIMESTAMP NOT NULL,
+                           "title" VARCHAR(255) NOT NULL,
                            PRIMARY KEY("id")
 );
 
