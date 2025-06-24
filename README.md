@@ -1,12 +1,16 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
-# Projet POC YourCarYourWay
+# 🚗 Projet POC YourCarYourWay
 
 Ce projet est une preuve de concept pour l'utilisation du chat en ligne.
 
-## Installation
+> [!NOTE]
+> Vous trouverez la documentation de la base de donnée dans [Wiki](https://github.com/Tom-DevWeb/OC-DA_Angular_Java-P13_YourCarYourWay/wiki).
+
+
+## 🛠️ Installation
 
 Pour installer le projet, exécuter les commandes suivantes :
 
@@ -25,11 +29,11 @@ venv\Scripts\Activate.ps1   # PowerShell
 pip install requirements.txt
 ```
 
+## 🚀 Lancement
+
 > [!IMPORTANT]
 > Prérequis :
 > Avoir Docker installé sur son environnement
-
-## Lancement
 
 ```bash
 # Lancement de Docker
@@ -42,9 +46,9 @@ source venv/bin/activate
 streamlit run main.py
 ```
 
-## Reset
+## 🚮 Reset
 
 ```bash
-# Eteindre conteneur docker et supprimer le volume
+# Éteindre conteneur docker et supprimer le volume
 docker compose up -v
 ```
