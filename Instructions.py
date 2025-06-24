@@ -14,13 +14,21 @@ st.info(
     - **Service client** : pour répondre aux messages des utilisateurs.
     """
 )
+
+# Initialiser la valeur par défaut s’il n'y en a pas
+if "profil" not in st.session_state:
+    st.session_state["profil"] = "Client"
+
 st.markdown("### 👤 Choisissez votre rôle")
 profil = st.selectbox(
     "Choisissez un profil pour continuer :",
-    ["Client", "Service client"]
+    ["Client", "Service client"],
+    index=["Client", "Service client"].index(st.session_state["profil"]),
 )
 
+# Stocker le profil et l'user_id correspondant
 st.session_state["profil"] = profil
+st.session_state["user_id"] = 2 if profil == "Client" else 3
 
 # Étape 2 : Accéder à la messagerie
 st.markdown("### 2️⃣ Accéder aux messages")
