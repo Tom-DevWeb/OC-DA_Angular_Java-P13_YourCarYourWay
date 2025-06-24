@@ -28,7 +28,7 @@ profil = st.selectbox(
 
 # Stocker le profil et l'user_id correspondant
 st.session_state["profil"] = profil
-st.session_state["user_id"] = 2 if profil == "Client" else 3
+st.session_state["user_id"] = 2 if profil == "Client" else 1
 
 # Étape 2 : Accéder à la messagerie
 st.markdown("### 2️⃣ Accéder aux messages")

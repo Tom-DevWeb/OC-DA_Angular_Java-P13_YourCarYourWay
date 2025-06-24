@@ -41,3 +41,10 @@ docker compose up
 source venv/bin/activate
 streamlit run main.py
 ```
+
+## Reset
+
+```bash
+# Eteindre conteneur docker et supprimer le volume
+docker compose up -v
+```
