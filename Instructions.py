@@ -2,7 +2,7 @@ import streamlit as st
 
 # --- En-tête ---
 st.title("🚗 YourCarYourWay")
-st.subheader("Bienvenue sur la plateforme de messagerie")
+st.subheader("Bienvenue sur le démonstrateur de la plateforme de messagerie")
 st.markdown("---")
 
 # Étape 1 : Choix du profil
