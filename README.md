@@ -15,6 +15,8 @@ Ce projet est une preuve de concept pour l'utilisation du chat en ligne.
 Pour installer le projet, exécuter les commandes suivantes :
 
 ```bash
+# Cloner le projet
+
 # Créer un environnement virtuel
 python3 -m venv venv
 
@@ -26,7 +28,7 @@ venv\Scripts\activate.bat   # cmd
 venv\Scripts\Activate.ps1   # PowerShell
 
 # Installer les librairies
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## 🚀 Lancement
