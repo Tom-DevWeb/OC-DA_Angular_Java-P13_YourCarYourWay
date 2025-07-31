@@ -53,5 +53,5 @@ streamlit run main.py
 
 ```bash
 # Éteindre conteneur docker et supprimer le volume
-docker compose up -v
+docker compose down -v
 ```
